@@ -3,33 +3,33 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "Put Session Id",
+  SESSION_ID: process.env.SESSION_ID || "ZTEVEKjQ#yxWnnEEk9isH125nYY1TTH-Hx6-DgGZtAKuaoXvLsdM",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
-  PREFIX: process.env.PREFIX || ".",
+  PREFIX: process.env.PREFIX || ",",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "public",
+  mode: process.env.mode || "private",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94701219309",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
-  ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
+  ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "false",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
   ANTI_LINK: process.env.ANTILINK || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "falsee",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
-  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
-  ANTI_BOT: process.env.ANTI_BOT || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
+  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
+  ANTI_BOT: process.env.ANTI_BOT || "false",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "SAHAS TECH",
+  packname: process.env.packname || "CRAZY CHUTTA",
   author: process.env.author || "SAHAS TECH",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
